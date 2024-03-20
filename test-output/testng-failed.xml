@@ -5,10 +5,9 @@
     <classes>
       <class name="com.TestCases.LoginTest">
         <methods>
+          <include name="setUp"/>
           <include name="verifyLoginPageWithInValidUsernameAndInValidPassword"/>
-          <include name="closedriver"/>
           <include name="verifyLoginPageWithValidUsernameAndValidPassword"/>
-          <include name="launchBrowser"/>
         </methods>
       </class> <!-- com.TestCases.LoginTest -->
     </classes>
